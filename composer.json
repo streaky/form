@@ -1,0 +1,27 @@
+{
+  "name": "streaky/form",
+  "type": "library",
+  "description": "Form generator/validator",
+  "homepage": "https://github.com/streaky/form/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Streaky",
+      "email": "streaky@mybrokenlogic.com",
+      "homepage": "https://github.com/streaky/"
+    }
+  ],
+  "repositories": [{
+    "type": "git",
+    "url": "https://github.com/streaky/template.git"
+  }],
+  "require": {
+    "php": ">=5.4.0",
+    "streaky/template": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "streaky\\form\\": "src/"
+    }
+  }
+}
